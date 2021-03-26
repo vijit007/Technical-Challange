@@ -1,0 +1,5 @@
+def get_value(nested_obj, key):
+    if not isinstance(nested_obj, dict):
+        return nested_obj
+    for k, v in nested_obj.items():
+        return get_value(v, none)
